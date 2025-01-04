@@ -6,6 +6,9 @@ function dark() {
     const text = document.getElementById('texto')
     const sobre = document.querySelector('.sobre')
     const oficina = document.querySelector('.oficina')
+    const logo = document.getElementById('logo')
+    const social = document.querySelector('.eu')
+
 
     ligar.style.transitionDuration = '1s'
     // Verificar se os elementos existem
@@ -16,7 +19,9 @@ function dark() {
      // Verifica se o elemento está oculto
 
     // Alternar classes para alterar o estilo
+    logo.style.color = 'pink';
     sobre.classList.toggle('mudar');
+    social.classList.toggle('colors');
     oficina.classList.toggle('escurecer');
     bocal.classList.toggle('ativa');
     luz.classList.toggle('ativa');

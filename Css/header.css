@@ -1,16 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+MX+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+MX+Guides&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+MX+Guides&display=swap');
+
 body{
     padding: 0;
     margin: 0;
+    
 }
+body::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 20%;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 192, 203);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(190, 190, 234);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+   
+}
+  
 #logo h1{
     color: rgb(4, 106, 132);
     letter-spacing: 2px;
-    font-size: 35px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 900;
-    font-style: normal;
+    font-size: 55px;
+    margin-left: 20px;
+    font-family: "Great vibes", serif;
+  font-weight: 100;
+  font-style: italic;
 }
 #link{
     align-items: center;
@@ -22,12 +43,29 @@ body{
     text-decoration: none;
     letter-spacing: 2px;
     margin-left: 20px;
+    position: relative;
     
+}
+#link a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    bottom: -30%;
+    transition: .2s linear;
+    left: 0;
+    
+}
+#link a:hover::after{
+    width: 100%;
 }
 #link span{
     cursor: pointer;
     margin-left: 10px;
+    display: none;
 }
+
 #logo{
     padding: 10px;
 }
@@ -43,6 +81,7 @@ header{
     justify-content: space-between;
     margin: 0;
     top: 0;
+    overflow: hidden;
 }
 #texto{
     background-color: #f4bad3;
@@ -138,15 +177,15 @@ header{
     display: none;
     position: absolute;
     background-color: transparent;
-    border: 130px solid transparent;
+    border: 200px solid transparent;
     
-    left: -6400%;
-    top: -50%;
-    border-bottom: 420px solid rgba(228, 214, 105, 0.416);
+    left: -9900%;
+    top: -130%;
+    border-bottom: 700px solid rgba(255, 230, 184, 0.416);
     
-    
-
+   
 }
+
 .flash {
     animation: flash-animation 0.5s infinite alternate;
   }
@@ -184,59 +223,74 @@ header{
 #texto.color a{
     color: white;
 }
-#moldura{
-    width: 230px;
-    height: 140px;
+.moldura{
+    width: 200px;
+    height: 250px;
     border-radius: 8px;
     position: absolute;
-    background-color: #3f3f3f;
-    padding: 10px 10px 7px 10px;
-    bottom: 35%;
-    left: 25%;
+    background-color: #351a00;
+   padding:8px;
+    bottom: 20%;
+    left: 30%;
+    
 }
-#moldura img{
-    width: 100%;
-    height: 100%;
-}
-#baixo{
-    background-color: white;
-    width: 248px;
-    height: 30px;
+#m1{
     position: absolute;
-    border: 1px solid gray;
-    border-radius: 0px 0px 10px 10px;
-    bottom: 32%;
-    left: 25%;  
-    z-index: 10;
+    left: 18%;
+    bottom: 30%;
+    width: 90px;
+    height: 120px;
+
 }
-#baixo::before{
+#m1::before{
+    display: none;
+}
+#m1::after{
+    display: none;
+}
+
+
+.moldura::before{
+    
     content: "";
-    width: 12px;
-    height: 12px;
+    position: absolute;
+    background-color: rgb(210, 210, 210);
+    width: 85px;
+    height: 5px;
+    rotate: 132deg;
+    top: -12%;
+    left: 20%;
+
+    
+}
+
+.moldura::after{
+    background-color: rgb(210, 210, 210);
+    content: "";
+    position: absolute;
+    width: 85px;
+    height: 5px;
+    rotate: 50deg;
+    top: -12%;
+    left: 45%;
+}
+.prego{
+    position: absolute;
+    bottom: 62%;
+    z-index: 1000;
+    left: 39.6%;
+    width: 10px;
+    height: 10px ;
     background-color: black;
     border-radius: 50%;
-    position: absolute;
-    left: 48%;
-    top: 26%;
+
 }
-#apoio{
-    border-radius: 20px 20px 0px 0px;
-    width: 50px;
-    height: 40px;
-    position: absolute;
-    background-color: rgb(179, 178, 178);
-    bottom: 28%;
-    left: 35%;
+.moldura img{
+    width: 100%;
+    height: 100%;
+    transition-duration: .5s;
 }
-#pe{
-    width: 100px;
-    border-radius: 10px;
-    height: 6px;
-    background-color: rgb(179, 178, 178);
-    position: absolute;
-    bottom: 28%;
-    left: 32.5%;
-}
+
 #mesa, #mesaL{
     position: absolute;
     width: 340px;
@@ -248,16 +302,7 @@ header{
     z-index: 2;
     
 }
-#mouse{
-    width: 25px;
-    height: 15px;
-    background-color: #f0f0f0;
-    border-radius: 50% 50% 0px 0px;
-    position: absolute;
-    bottom: 27%;
-    left: 50%;
-    
-}
+
 #mesaL{
     background-color: #3f3f3f;
     top: 50%;
@@ -308,4 +353,7 @@ header{
     position: absolute;
     top: 20%;
     right: 0;
+}
+.dark #logo{
+    color: pink;
 }

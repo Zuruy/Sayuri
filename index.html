@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="shortcut icon" href="image/marcador.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=nights_stay" />
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Sobre.css">
-
-    <link rel="stylesheet" href="oficina.css">
-    <link rel="stylesheet" href="responsive.css">
-
-    <link rel="stylesheet" href="eu.css">
+    <!--Links Css-->
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/Sobre.css">
+    <link rel="stylesheet" href="Css/oficina.css">
+    <link rel="stylesheet" href="Css/responsive.css">
+    <link rel="stylesheet" href="Css/eu.css">
     
-    <title>Kaiky.Dev</title>
+    <title>Sayuri.artes</title>
 </head>
 <body>
+<!--Este e o que esta de fundo-->
     <div class="eu" id="stickyDiv">
         <div id="contatos">
             <div id="redes_socias">
@@ -34,7 +34,7 @@
             </div>
         </div> 
         
-    <header>
+    <header id="home">
         <div class="mobila" id="mobila">
             <div id="lampada">
                 <div id="ponta"></div>
@@ -43,6 +43,7 @@
                 <div onclick="dark()" id="luz"></div>
                 <div id="acender"></div>
             </div>
+            <!--Arrumar logo-->
             <div id="logo"><h1>yumi</h1></div>
             <div class="estante">
                 <div id="livros">
@@ -52,22 +53,22 @@
                     <div class="livro cacete"></div>
                 </div>
                 <div id="pc">
-                    <div id="moldura"><img src="https://i.pinimg.com/originals/8a/63/3d/8a633dbb14009411650a5a914d73c950.gif" alt=""></div>
-                    <div id="baixo"></div>
-                    <div id="apoio"></div>
-                    <div id="pe"></div>
+                    
+                    <div class="moldura" ><img src="https://i.pinimg.com/originals/8a/63/3d/8a633dbb14009411650a5a914d73c950.gif" alt=""></div>
+
+                    <div class="moldura" id="m1"><img src="https://i.pinimg.com/originals/8a/63/3d/8a633dbb14009411650a5a914d73c950.gif" alt=""></div>
+
                 </div>
-                <div id="mesa"></div>
-                <div id="mouse"></div>
-                <div id="cafe"></div>
+                
+                
+               
             </div>
         </div>
         <div id="texto">
             <div id="link">
-                <a href="#">Sobre</a>
-                <a href="#">Mais</a>
-                <a href="#">Escrita</a>
-                <a href="#">Projetos</a>
+                <a href="#home">Home</a>
+                <a href="#s">Sobre</a>
+                <a href="#o">Oficna</a>
                 <span onclick="dark()" class="material-symbols-outlined">
                     nights_stay
                 </span>
@@ -76,7 +77,7 @@
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing eli</h1>
         </div>
     </header>
-    <div class="sobre">
+    <div class="sobre" id="s">
         <h1>Sobre</h1>
         <div class="ordem">
             <div class="caixa">
@@ -119,7 +120,7 @@
         </button>
     </a>
     </div>
-    <div class="oficina">
+    <div class="oficina" id="o">
         
         <div id="falando_mim">
             
