@@ -1,0 +1,116 @@
+.oficina{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(205, 207, 233);
+    padding: 100px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    padding-bottom: 15px;
+}
+h1{
+    font-size: 3em;
+    
+    font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+    margin: 0;
+}
+#falando_mim{
+    padding: 0px 50px 0px 60px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+#fala{
+
+    width: 600px;
+    margin-right: 50px;
+}
+#fala p{
+    color: rgb(47, 47, 47);
+    font-size: 18px;
+    line-height: 30px;
+}
+#falando_mim div img{
+    width: 200px;
+    box-shadow: 10px 5px 0px 0px rgba(0, 0, 0, 0.597);
+    border: 2px solid black;
+}
+#falando_mim a{
+    color: black;
+    font-size: 18px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+#info{
+   position: absolute;
+
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    top: -4%;
+    left: 10%;
+    border: 2px solid black;
+}
+#info h4{
+    align-items: center;
+    text-align: center;
+    margin: 3px;
+    font-family: "Kanit", sans-serif;
+}
+#imagens{
+    position: relative;
+}
+.oficina.escurecer{
+    background-color: black;
+    color: white;
+}
+.escurecer #fala p{
+    color: white;
+}
+.escurecer .risca{
+    background-color: white;
+}
+.escurecer #imagens img{
+    border: 3px solid white;
+    box-shadow: 10px 5px 0px 0px rgba(177, 177, 177, 0.597);
+
+}
+.escurecer #info{
+    background-color: black;
+    border: 3px solid white;
+}
+.risca{
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    background-color: black;
+    
+}
+#imagens #chibi{
+   width: 250px;
+}
+.reto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.bolinhas{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(45, 210, 255);
+    animation: colors 4s linear infinite;
+
+}
+@keyframes colors{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}

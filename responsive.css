@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+   header{
+      width: 100vw;
+   }
+   
+   #mobila{
+      display: none;
+   }
+   #texto{
+      width: 100%;
+      color: black;
+      background-color: white;
+      padding: 0;
+      align-items: center;
+      text-align: center;
+      padding-top: 100px;
+   }
+   .sobre{
+      display:grid;
+   }
+   .sobre .ordem{
+      display: grid;
+   }
+   .sobre .caixa{
+      width: 90%;
+      margin-bottom: 50px;
+   }
+   #contatos{
+      width: 40%;
+   }
+   
+}
+@media (max-width: 632px){
+   #falando_mim{
+      display: grid;
+   }
+   #fala{
+      width: 450px;
+      margin-bottom: 20px;
+
+   }
+}
