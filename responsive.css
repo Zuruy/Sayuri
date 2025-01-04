@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+   #personagem #fundo{
+      height: 100%;
+      border-radius: 50%;
+      
+   }
    header{
       width: 100vw;
    }
@@ -42,6 +47,9 @@
    }
 }
 @media (max-width: 470px){
+   .eu #lado{
+      margin-top: 10px;
+   }
 
    #fala{
       max-width: 300px;
@@ -67,8 +75,19 @@
       margin-left: 25px;
       margin-right: 0;
    }
-   .eu{
-      display: none;
+   #personagem{
+      margin-left: 50px;
       
    }
+   #personagem #fundo{
+      height: 100%;
+      border-radius: 50%;
+      
+   }
+   #personagem #fundo img{
+      height: 100%;
+      
+   }
+  
+
 }
