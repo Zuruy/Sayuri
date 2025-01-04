@@ -22,7 +22,7 @@
       display: grid;
    }
    .sobre .caixa{
-      width: 90%;
+      width: 80%;
       margin-bottom: 50px;
    }
    #contatos{
@@ -32,11 +32,43 @@
 }
 @media (max-width: 632px){
    #falando_mim{
+      padding-left: 10px;
       display: grid;
    }
    #fala{
-      width: 450px;
+      max-width: 400px;
       margin-bottom: 20px;
 
+   }
+}
+@media (max-width: 470px){
+
+   #fala{
+      max-width: 300px;
+   }
+}
+@media (max-width: 370px){
+   #fala{
+      max-width: 200px;
+   }
+}
+@media (max-width: 300px){
+  
+   #falando_mim div img{
+      width: 150px;
+   }
+   #falando_mim  #chibi{
+      width: 150px;
+   }
+   #falando_mim .risca{
+      width: 150px;
+   }
+   .sobre button{
+      margin-left: 25px;
+      margin-right: 0;
+   }
+   .eu{
+      display: none;
+      
    }
 }
