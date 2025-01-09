@@ -69,9 +69,7 @@
 @media (max-width: 470px){
   
    .sobre .frase_dia{
-      width: 100%;
-      height: 100%;
-      left: 0;
+      display: none;
    }
    .eu #lado{
       margin-top: 10px;
