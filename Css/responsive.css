@@ -87,6 +87,9 @@
    }
 }
 @media (max-width: 300px){
+   .sobre .frase_dia{
+      display: none;
+   }
   
    #falando_mim div img{
       width: 150px;
