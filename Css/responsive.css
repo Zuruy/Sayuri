@@ -61,9 +61,13 @@
       margin-bottom: 20px;
 
    }
+   #meio{
+      left: 10%;
+   }
+
 }
 @media (max-width: 470px){
-
+  
    .sobre .frase_dia{
       width: 100%;
       height: 100%;
