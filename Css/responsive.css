@@ -4,6 +4,13 @@
       border-radius: 50%;
       
    }
+   .div.flex{
+      display: grid;
+      
+   }
+   .div.flex .caixa{
+      width: 80%;
+   }
    #link span{
       display: block;
    }
@@ -91,6 +98,7 @@
       height: 100%;
       
    }
+  
   
 
 }
