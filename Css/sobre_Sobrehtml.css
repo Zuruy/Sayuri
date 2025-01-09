@@ -18,6 +18,7 @@
     
     
 }
+
 #link a::after{
     content: "";
     position: absolute;
@@ -48,6 +49,7 @@
     box-shadow: 10px 10px 0px 0px rgba(47, 47, 47, 0.7);
 }
 .sobre h1{
+    
     margin-bottom: 30px;
     position: relative;
     z-index: 20;
@@ -78,6 +80,89 @@
     background-color: rgb(140, 179, 250);
     top: 100%;
     left: 50%;
+}
+.citacao{
+    background-image: url("../image/Artes/NoiteEstrelada_VanGogh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    
+}
+.citacao p{
+    color: white;
+}
+.citacao #circulo{
+    background-color: white;
+}
+.citacao::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.267);
+    top: 0;
+    left: 0;
+    z-index: -100;
+    border-radius: 0px 20px 20px 20px;
+    
+}
+.caixa_baixo{
+    margin-bottom: 30px;
+}
+.frase_dia{
+    width: 96%;
+    position: relative;
+    bottom:-60% ;
+    background-image: url("../image/Artes/frase_day.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    box-shadow: none;
+    border-radius: 0px;
+   
+
+
+}
+.frase_dia p{
+    font-size: 20px;
+    color: white;
+}
+.frase_dia #circulo{
+    background-color: #C9AAF7;
+    width: 60px;
+    height: 60px;
+    
+    
+    
+}
+.frase_dia::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.267);
+    top: 0;
+    left: 0;
+    z-index: -100;
+ 
+    
+}
+
+/*
+.citacao::before{
+    width: 300px;
+    height: 250px;
+    content: "";
+    background-image: url("../image/Artes/NoiteEstrelada_VanGogh.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    background-color: black;
+    right: -5%;
+    top: 45%;
 }
 /*
 .ondas{
