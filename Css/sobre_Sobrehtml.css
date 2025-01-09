@@ -1,9 +1,13 @@
 #link{
     align-items: center;
-    background-color: #C9AAF7;
+    background-color: rgb(193, 223, 248);
     padding: 10px;
     display: flex;
     padding-top:30px ;
+    align-items: center;
+}
+.sobre{
+    background-color: rgb(193, 223, 248);
 }
 #link a{
     color: black;
@@ -30,6 +34,7 @@
     left: 0;
     
 }
+
 #link a:hover::after{
     width: 100%;
 }
@@ -38,6 +43,7 @@
     margin-left: 10px;
     display: block;
 }
+
 .ordem{
     display: grid;
 }
@@ -49,7 +55,7 @@
     box-shadow: 10px 10px 0px 0px rgba(47, 47, 47, 0.7);
 }
 .sobre h1{
-    
+    color: white;
     margin-bottom: 30px;
     position: relative;
     z-index: 20;
@@ -148,6 +154,9 @@
     z-index: -100;
  
     
+}
+body{
+    background-color: rgb(193, 223, 248);
 }
 
 /*
