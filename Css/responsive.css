@@ -52,6 +52,26 @@
    
 }
 @media (max-width: 632px){
+   .flex{
+      display: grid;
+   }
+   .flex .div_flex img{
+      width: 100%;
+   }
+   .grid .div_flex{
+     width: 100%;
+     margin-bottom: 80px;
+  
+  }
+  .menor{
+   width: 100%;
+}
+.maior{
+   width: 100%;
+}
+header{
+   width: 100%;
+}
    #falando_mim{
       padding-left: 10px;
       display: grid;
