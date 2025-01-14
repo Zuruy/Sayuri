@@ -69,6 +69,7 @@
 .maior{
    width: 100%;
 }
+
 header{
    width: 100%;
 }
@@ -84,9 +85,17 @@ header{
    #meio{
       left: 10%;
    }
-
+   .container{
+      padding-left: 0px;
+      padding-right: 0px;
+   }
 }
 @media (max-width: 470px){
+
+   .texto{
+      width: 200px;
+      font-size: 20px;
+   }
   
    .sobre .frase_dia{
       display: none;
