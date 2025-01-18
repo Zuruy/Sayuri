@@ -82,6 +82,9 @@ h1{
     background-color: black;
     border: 3px solid white;
 }
+.escurecer #fala a{
+    color: white;
+}
 .risca{
     position: absolute;
     width: 250px;
