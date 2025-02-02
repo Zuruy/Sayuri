@@ -6,6 +6,28 @@ body {
     color: #333;
 }
 
+
+/* Texto Principal */
+.texto {
+    padding: 50px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.texto h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto h1 b {
+    color: #ff5d78;
+}
+
 /* Container de Projetos */
 .container {
     padding: 50px 20px;
